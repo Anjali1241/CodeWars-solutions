@@ -11,7 +11,6 @@
 // Output string must be two numbers separated by a single space, and highest number is first.
 
 function highAndLow(numbers){
-    // ...
-     let  newN=numbers.split(" ")
+    let  newN=numbers.split(" ")
    return `${Math.max(...newN)} ${Math.min(...newN)}`
 }
