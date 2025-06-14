@@ -12,5 +12,5 @@ function reverseWords(str) {
     for (let i = 0; i < arr.length; i++) {
         newArr.push(arr[i].split("").reverse().join(""))
     }
-    return newArr ? .join(' ')
+    return newArr.join(' ')
 }
