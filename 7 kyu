@@ -1,0 +1,43 @@
+//Implement all required functions in order to create the following sentences by calling those functions:
+
+//Adam(has(a(dog()))); // must return "Adam has a dog."
+//The(name(of(the(dog(is(also(Adam()))))))); // must return "The name of the dog is also Adam."
+function Adam(inner) {
+  return inner ? `Adam ${inner}` : "Adam.";
+}
+
+function has(inner) {
+  return `has ${inner}`;
+}
+
+function a(inner) {
+  return `a ${inner}`;
+}
+
+function dog(inner) {
+  return inner ? `dog ${inner}` : "dog.";
+}
+
+function The(inner) {
+  return `The ${inner}`;
+}
+
+function name(inner) {
+  return `name ${inner}`;
+}
+
+function of(inner) {
+  return `of ${inner}`;
+}
+
+function the(inner) {
+  return `the ${inner}`;
+}
+
+function is(inner) {
+  return `is ${inner}`;
+}
+
+function also(inner) {
+  return `also ${inner}`;
+}
