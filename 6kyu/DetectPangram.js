@@ -5,7 +5,7 @@
 function isPangram(string){
   //...
 const alpha = Array.from({ length: 26 }, (_, i) =>
-  String.fromCharCode(97 + i)
+  String.toLowerCase().fromCharCode(97 + i)
 );
 function isEven(num) {
   return string.includes(num)
