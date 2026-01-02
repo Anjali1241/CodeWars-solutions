@@ -9,6 +9,7 @@
 // NOTE: Pay attention that the last brackets are left empty to indicate the end of operations.
 
 function sum(a) {
+  if(num === undefined) return 0;
   let sum = a;
 
   return function inner(b) {
